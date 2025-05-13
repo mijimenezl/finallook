@@ -18,15 +18,11 @@ st.set_page_config(
 # CSS personalizado con tipografías y estilos mejorados
 st.markdown("""
      <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
     
     html, body, [class*="css"] {
         font-family: 'Roboto', sans-serif;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-        font-family: 'Times New Roman', Times, serif;
-        color: #2c3e50;
     }
     
     .main {
