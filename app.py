@@ -26,7 +26,7 @@ st.markdown("""
     }
     
     .main {
-        background-color: #090329;
+        background-color: #7362cb;
         padding: 2rem;
     }
     
