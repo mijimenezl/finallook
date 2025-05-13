@@ -96,18 +96,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Encabezado con logo y título
-col1, col2 = st.columns([1, 3])
-with col1:
-    # Reemplaza con la URL de tu logo o usa una imagen local
-    st.image("https://cdn-icons-png.flaticon.com/512/2933/2933245.png", width=100)
-with col2:
-    st.title('📊 Análisis de datos de Sensores en Mi Ciudad')
-    st.markdown("""
-        <div style="background-color:#ecf0f1; padding:1rem; border-radius:8px;">
-        Esta aplicación permite analizar datos de temperatura y humedad
-        recolectados por sensores ESP32 en diferentes puntos de la ciudad.
-        </div>
-    """, unsafe_allow_html=True)
+st.title('📊 Análisis de datos de Sensores en Mi Ciudad')
+st.markdown("""
+    <div style="background-color:#ecf0f1; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
+    Esta aplicación permite analizar datos de temperatura y humedad
+    recolectados por sensores ESP32 en diferentes puntos de la ciudad.
+    </div>
+""", unsafe_allow_html=True)
 
 # Sidebar para navegación
 with st.sidebar:
