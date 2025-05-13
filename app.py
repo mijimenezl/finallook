@@ -120,7 +120,7 @@ eafit_location = pd.DataFrame({
 })
 
 # Mostrar mapa con estilo mejorado
-st.subheader("📍 Ubicación de los Sensores - Universidad EAFIT")
+st.subheader("📍 Ubicación de los Sensores")
 st.map(eafit_location, zoom=15)
 
 # Cargador de archivos
@@ -320,7 +320,6 @@ st.markdown("""
     <div style="background-color:#2c3e50; color:white; padding:1.5rem; border-radius:8px; margin-top:2rem;">
         <p style="text-align:center; margin-bottom:0;">
             <strong>Desarrollado para el análisis de datos de sensores urbanos</strong><br>
-            <small>Ubicación: Universidad EAFIT, Medellín, Colombia | © 2023</small>
         </p>
     </div>
 """, unsafe_allow_html=True)
