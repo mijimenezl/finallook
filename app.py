@@ -92,9 +92,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Encabezado con logo y título
+st.title('📊 Análisis de Datos de Sensores en Mi Ciudad')
 st.markdown("""
-    <h1 style='text-align: center;'>📊 Análisis de Datos de Sensores en Mi Ciudad</h1>
-    <div style="background-color:#1c097a; padding:1rem; border-radius:8px; margin-bottom:1.5rem; text-align: center;">
+    <div style="background-color:#1c097a; padding:1rem; border-radius:8px; margin-bottom:1.5rem;">
     Esta aplicación permite analizar datos de temperatura y humedad
     recolectados por sensores ESP32 en diferentes puntos de la ciudad.
     </div>
